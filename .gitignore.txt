@@ -1,0 +1,40 @@
+# Build results
+.vs/
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
+.vscode/
+
+# Node (əgər frontend React varsa)
+node_modules/
+
+# Logs
+*.log
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Publish output
+wwwroot/
+
+# Entity Framework Core Migrations snapshot files
+Migrations/*Designer.cs
+Migrations/*Snapshot.cs
+
+# Others
+*.db
+*.sqlite

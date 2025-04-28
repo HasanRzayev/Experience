@@ -1,0 +1,6 @@
+@Experience_HostAddress = http://localhost:5029
+
+GET {{Experience_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
