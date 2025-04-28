@@ -113,6 +113,8 @@ app.UseEndpoints(endpoints =>
 });
 app.UseAuthentication();
 app.UseAuthorization();
+var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
+app.Urls.Add($"http://*:{port}");
 
 app.MapControllers();
 
